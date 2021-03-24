@@ -21,6 +21,9 @@ module.exports = {
           entries: {
             'content-script': [
               'src/content-scripts/content-script.js'
+            ],
+            'play-beep':[
+              'src/content-scripts/play-beep.js'
             ]
           }
         }
