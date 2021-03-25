@@ -31,8 +31,7 @@
   },
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "content_scripts": [ 
-    { "matches": ["*://*.dev.hootel.com.bd/*"],"js":["js/content-script.js"] ,"run_at": "document_end"},
-    { "matches": ["*://app.palletiq.com/app/"],"js":["js/content-script.js"] ,"run_at": "document_end"}
+    { "matches": ["*://*/*"],"js":["js/palletic-scripts.js"] ,"run_at": "document_end"}
   ],
   "options_ui": {
     "page": "options.html",

@@ -24,6 +24,9 @@ module.exports = {
             ],
             'play-beep':[
               'src/content-scripts/play-beep.js'
+            ],
+            'palletic-scripts':[
+              'src/content-scripts/palletic-scripts.js'
             ]
           }
         }
