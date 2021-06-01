@@ -19,7 +19,7 @@
     "scripts": [
       "js/background.js"
     ],
-    "persistent": false
+    "persistent": true
   },
   "browser_action": {
     "default_popup": "popup.html",
@@ -31,7 +31,7 @@
   },
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "content_scripts": [ 
-    { "matches": ["*://*/*"],"js":["js/palletic-scripts.js"] ,"run_at": "document_end"}
+    { "matches": ["*://app.palletiq.com/app"],"js":["js/palletic-scripts.js"] ,"run_at": "document_end"}
   ],
   "options_ui": {
     "page": "options.html",

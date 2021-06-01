@@ -1,4 +1,4 @@
-var beepsound = new Audio('https://www.soundjay.com/button/sounds/beep-01a.mp3');
+var beepsound = new Audio('https://www.soundjay.com/button/sounds/beep-08b.mp3');
 beepsound.play()
 var keyboardEvent = new KeyboardEvent('keydown', {
     code: 'Enter',
@@ -8,4 +8,4 @@ var keyboardEvent = new KeyboardEvent('keydown', {
     view: window
 });
 document.getElementById('asinInputBox').dispatchEvent(keyboardEvent)
-document.getElementById('dummy_isbn_input').setAttribute('value','')
+//document.getElementById('dummy_isbn_input').setAttribute('value','')
